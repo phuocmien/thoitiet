@@ -4,7 +4,7 @@ st.set_page_config(layout='wide')
 # MAIN
 main=st.container()
 with main:
-    st.title("Tra cứu thông tin thời tiết")
+    st.title("Tra cứu thông tin thời tiết - Draf: Doan Phuoc Mien")
 
 api_key='33f1ebf370a26a00554189497227db6f'
 
