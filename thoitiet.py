@@ -1,10 +1,18 @@
 import streamlit as st 
 import requests
 st.set_page_config(layout='wide')
+#up len host:
+#git remote add origin https://github.com/phuocmien/thoitiet.git
+#git add .
+#git branch -M main
+#git push -u origin main
+#
+#
+#
 # MAIN
 main=st.container()
 with main:
-    st.title("Tra cứu thông tin thời tiết - Draf: Doan Phuoc Mien")
+    st.title("Tra cứu thông tin thời tiết - Draft: Doan Phuoc Mien")
 
 api_key='33f1ebf370a26a00554189497227db6f'
 
